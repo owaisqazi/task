@@ -2,11 +2,11 @@
   "name": "task",
   "version": "0.1.0",
   "private": true,
-"scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "lucide-react": "^0.563.0",
     "next": "16.1.6",
@@ -22,8 +22,7 @@
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4"
   },
- "engines": {
-  "node": "20.x"
-}
-
+  "engines": {
+    "node": "20.x"
+  }
 }
