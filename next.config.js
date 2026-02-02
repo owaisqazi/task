@@ -1,9 +1,16 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    appDir: true,
+// next.config.js
+module.exports = {
+  async headers() {
+    return [
+      {
+        source: "/(.*)",
+        headers: [
+          {
+            key: "Content-Security-Policy",
+            value: "default-src 'self'; script-src 'self' 'unsafe-eval';",
+          },
+        ],
+      },
+    ];
   },
-  srcDir: 'src', // important to tell Next.js to look inside src
 };
-
-module.exports = nextConfig;
