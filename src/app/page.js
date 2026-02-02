@@ -9,7 +9,7 @@ export default function Home() {
       <PartitionCages />
       <KeyCharacteristics />
       <ExampleApplications />
-      <Services />
+      <Services />  
     </div>
   );
 }
