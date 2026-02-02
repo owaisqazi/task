@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 "use client"
-
 import { Heart } from "lucide-react"
 import React, { useState } from "react"
 import CustomButton from "../../ui/CustomButton"

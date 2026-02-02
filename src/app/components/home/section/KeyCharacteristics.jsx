@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @typescript-eslint/no-unused-vars */
+
 import { HandHeart, Network, ShieldCheck } from 'lucide-react'
 import React from 'react'
 
